@@ -1,0 +1,29 @@
+/* 履歷表 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: monospace;
+    display: flex;
+    font-size: 20px;
+    border:20px solid  slategrey;
+    background-color: rgb(175, 195, 221);
+}
+
+
+img {
+    align-items:left;
+}
+
+table {
+    margin: 10px;
+    width: 1000px;
+    font-family: cursive;
+    font-size: 18px;
+    border: 1px solid;
+    border-collapse: collapse
+}
+

@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+/* 課表 */
+table {
+    width: 1500px;
+    font-family: cursive;
+    font-size: 18px;
+}
+
+.row {
+    text-align: center;
+}
+
+table,th,td {
+    border: 1px solid rgb(98, 112, 59);
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 10px;
+}
+
+th,td{
+    background-color:rgba(123, 132, 139, 0.719);
+    color: white;
+}

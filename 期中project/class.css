@@ -32,6 +32,8 @@ td {
 
 .week {
   background-color: rgb(182, 168, 168);
+  width: 200px;
+  height: auto;
 }
 
 .purple {

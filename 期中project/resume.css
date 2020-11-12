@@ -1,29 +1,19 @@
 /* 履歷表 */
 * {
-    padding: 0;
-    margin: 0;
+    padding:4px;
+    margin: 2px;
     box-sizing: border-box;
-  }
+    align-items: center;
+    justify-content: center;
+}
 
 body {
     font-family: monospace;
-    display: flex;
-    font-size: 20px;
-    border:20px solid  slategrey;
+    font-size: 28px;
     background-color: rgb(175, 195, 221);
+    border: 3px solid black;
+    display: flex;
+
 }
 
-
-img {
-    align-items:left;
-}
-
-table {
-    margin: 10px;
-    width: 1000px;
-    font-family: cursive;
-    font-size: 18px;
-    border: 1px solid;
-    border-collapse: collapse
-}
 

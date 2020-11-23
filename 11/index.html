@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="">
+        <img src="../assets/crown.svg" alt="" />
+      </a>
+      <div class="options">
+        <a href="#" class="option">Shop</a>
+        <a href="#" class="option">Contact</a>
+        <a href="#" class="option">Sign In</a>
+        <div class="cart-icon" onclick="cartToggle()">
+          <img src="./assets/shopping-bag.svg" alt="" class="shopping-icon" />
+        </div>
+        <div class="cart-dropdown">
+          <div class="cart-items">
+            <div class="cart-item">
+              <img src="https://i.ibb.co/ZYW3VTp/brown-brim.png" alt="" />
+              <div class="item-details">
+                <span class="name">Brown Brim</span>
+                <span class="price">4 * 25</span>
+              </div>
+            </div>
+          </div>
+          <button class="custom-bottom">GO TO CHECKOUT</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function cartToggle() {
+        p = document.querySelector('.cart-dropdown');
+        console.log('cart-dropdown', p.classList);
+        p, classList.toggle('show');
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="">
+        <img src="../assets/crown.svg" alt="" />
+      </a>
+      <div class="options">
+        <a href="#" class="option">Shop</a>
+        <a href="#" class="option">Contact</a>
+        <a href="#" class="option">Sign In</a>
+        <div class="cart-icon" onclick="cartToggle()">
+          <img src="./assets/shopping-bag.svg" alt="" class="shopping-icon" />
+        </div>
+        <div class="cart-dropdown show">
+          <div class="cart-items">
+            <div class="cart-item">
+              <img src="https://i.ibb.co/rKBDvJX/palm-tree-cap.png" alt="" />
+              <div class="item-details">
+                <span class="name">Palm Tree Cap</span>
+                <span class="price">$14</span>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img src="https://i.ibb.co/N71k1ML/grey-jean-jacket.png" alt="" />
+              <div class="item-details">
+                <span class="name">Grey Jean Jacket</span>
+                <span class="price">$90</span>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img
+                src="https://i.ibb.co/1RcFPk0/white-nike-high-tops.png"
+                alt=""
+              />
+              <div class="item-details">
+                <span class="name">Nike White AirForce</span>
+                <span class="price">$160</span>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img src="https://i.ibb.co/qBcrsJg/white-vest.png" alt="" />
+              <div class="item-details">
+                <span class="name">White Blouse</span>
+                <span class="price">$20</span>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img src="https://i.ibb.co/xJS0T3Y/camo-vest.png" alt="" />
+              <div class="item-details">
+                <span class="name">Camo Down Vest</span>
+                <span class="price">$325</span>
+              </div>
+            </div>
+          </div>
+          <button class="custom-bottom">GO TO CHECKOUT</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="homepage">
+      <div class="directory-menu">
+        <div class="menu-item">
+          <img
+            src="https://i.ibb.co/cvpntL1/hats.png','/img/homepage/hats.png"
+            alt=""
+            class="background-image"
+          />
+          <a href="" class="content">
+            <h1 class="title">HATS</h1>
+            <span class="subtitle">SHOP NOW</span>
+          </a>
+        </div>
+        <div class="menu-item">
+          <img
+            src="https://i.ibb.co/px2tCc3/jackets.png','/img/homepage/jackets.png"
+            alt=""
+            class="background-image"
+          />
+          <a href="" class="content">
+            <h1 class="title">JACKETS</h1>
+            <span class="subtitle">SHOP NOW</span>
+          </a>
+        </div>
+        <div class="menu-item">
+          <img
+            src="https://i.ibb.co/0jqHpnp/sneakers.png','/img/homepage/sneakers.png"
+            alt=""
+            class="background-image"
+          />
+          <a href="" class="content">
+            <h1 class="title">SNEAKERS</h1>
+            <span class="subtitle">SHOP NOW</span>
+          </a>
+        </div>
+        <div class="large menu-item">
+          <img
+            src="https://i.ibb.co/GCCdy8t/womens.png','/img/homepage/womens.png"
+            alt=""
+            class="background-image"
+          />
+          <a href="" class="content">
+            <h1 class="title">WOMENS</h1>
+            <span class="subtitle">SHOP NOW</span>
+          </a>
+        </div>
+        <div class="large menu-item">
+          <img
+            src="https://i.ibb.co/R70vBrQ/men.png','/img/homepage/mens.png"
+            alt=""
+            class="background-image"
+          />
+          <a href="" class="content">
+            <h1 class="title">MENS</h1>
+            <span class="subtitle">SHOP NOW</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script>
+      function cartToggle() {
+        p = document.querySelector('.cart-dropdown');
+        console.log('cart-dropdown', p.classList);
+        p, classList.toggle('show');
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+.lb {
+    display: none;
+    position: fixed !important;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.lb img {
+    max-width: 60%;
+    max-height: 80%;
+    margin-top: 2%;
+}
+
+.lb:target {
+    outline: none;
+    display: block;
+}
+
+
+
+html {
+    background: #222;
+    text-align: center;
+}
+
+h1 {
+    font: 50px Helvetica, Arial, Sans-Serif;
+    color: #ccc;
+
+}
